@@ -38,7 +38,6 @@ async def ready(ctx):
         for key in activeUsers:
             handCollection[key] = [deck.pop(0), deck.pop(0)]
             user = client.get_user(key)
-            if handCollection[key][0]
             await user.send(str(handCollection[key][0]) + "        " + str(handCollection[key][1]))
         await ctx.send(f'Hands Dealt')
         for key in activeUsers:

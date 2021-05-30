@@ -100,4 +100,4 @@ async def wealth(ctx):
         await ctx.send(f'{ctx.message.author.name} has {playerCollection.get(ctx.message.author.id)}')
 
 
-client.run('Mzg0MjQzNjc3NjI4NzI3MzA3.Whpszw.3KIs6UMx_tFbT9hJfTC070XrU7I')
+client.run('Insert Key Here')
